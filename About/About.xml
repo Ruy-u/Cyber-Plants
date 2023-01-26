@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Cyber Plants - Beauty</name>
+	<packageId>ruyu.cyberplantsbeauty</packageId>
+	<author>Ruyu</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>Adds beautiful cyberplants to rimworld that can resist heat and have a very long lifespan.</description>
+</ModMetaData>

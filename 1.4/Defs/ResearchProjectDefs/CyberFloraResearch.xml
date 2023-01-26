@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <Defs>
+  <ResearchProjectDef>
+    <defName>Research_CyberFlora</defName>
+    <label>cyberflora</label>
+    <description>gain the ability to plant cyberplants, more advanced and beautiful types of flora.</description>
+    <techLevel>Spacer</techLevel>
+    <baseCost>2000</baseCost>
+    <researchViewX>7.00</researchViewX>
+    <researchViewY>6.40</researchViewY>
+    <prerequisites>
+      <li>TreeSowing</li>
+    </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+ </Defs>

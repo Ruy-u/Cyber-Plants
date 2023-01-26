@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <ThingDef ParentName="PlantBase">
+     <thingClass>Ruyu.CyberFlora.CyberPlant</thingClass>
+     <defName>Cyber_Rose</defName>
+     <label>cyber rose</label>
+	  <description>A beautiful cyber rose, the rose has been a symbol of love since Earth's ancient era, enchanted by a beautiful red glow. Cyberplants have a very long lifespan and can grow in any temperature.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+	  <Flammability>0</Flammability>
+      <Beauty>35</Beauty>
+      <BeautyOutdoors>35</BeautyOutdoors>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CyberRose</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>0.8</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>2000</sowWork> <!-- 100 ticks per live day -->
+      <sowTags>
+        <li>CyberDecorative</li>
+      </sowTags>
+	  <sowResearchPrerequisites Inherit="False">
+        <li>Research_CyberFlora</li>
+      </sowResearchPrerequisites>
+      <growDays>3</growDays>
+      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+	  <neverBlightable>true</neverBlightable>
+      <growMinGlow>1</growMinGlow>
+      <growOptimalGlow>3</growOptimalGlow>
+    </plant>
+    <fertility>1</fertility>
+     <comps>
+        <li Class="CompProperties_Glower">
+         <glowRadius>5.9</glowRadius>
+         <glowColor>(220,20,60,0)</glowColor>
+        </li>
+     </comps>
+ </ThingDef>
+ 
+  <ThingDef ParentName="PlantBase">
+     <thingClass>Ruyu.CyberFlora.CyberPlant</thingClass>
+     <defName>Cyber_PinkRose</defName>
+     <label>cyber pink rose</label>
+	  <description>A beautiful pink cyber rose, the rose has been a symbol of love since Earth's ancient era, enchanted by a beautiful pink glow. Cyberplants have a very long lifespan and can grow in any temperature.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+	  <Flammability>0</Flammability>
+      <Beauty>35</Beauty>
+      <BeautyOutdoors>35</BeautyOutdoors>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CyberPinkRose</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>0.8</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>2000</sowWork> <!-- 100 ticks per live day -->
+      <sowTags>
+        <li>CyberDecorative</li>
+      </sowTags>
+	  <sowResearchPrerequisites Inherit="False">
+        <li>Research_CyberFlora</li>
+      </sowResearchPrerequisites>
+      <growDays>3</growDays>
+      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+	  <neverBlightable>true</neverBlightable>
+      <growMinGlow>1</growMinGlow>
+      <growOptimalGlow>3</growOptimalGlow>
+    </plant>
+    <fertility>1</fertility>
+     <comps>
+        <li Class="CompProperties_Glower">
+         <glowRadius>5.9</glowRadius>
+         <glowColor>(228,131,152,0)</glowColor>
+        </li>
+     </comps>
+ </ThingDef>
+ 
+ <ThingDef ParentName="PlantBase">
+     <thingClass>Ruyu.CyberFlora.CyberPlant</thingClass>
+     <defName>Cyber_Daylily</defName>
+     <label>cyber daylily</label>
+	  <description>A cyber flower with wide petals. Daylilies are very beautiful, enchanted by a beautiful orange glow. Cyberplants have a very long lifespan and can grow in any temperature.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+	  <Flammability>0</Flammability>
+      <Beauty>35</Beauty>
+      <BeautyOutdoors>35</BeautyOutdoors>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CyberDaylily</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>0.8</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>2000</sowWork> <!-- 100 ticks per live day -->
+      <sowTags>
+        <li>CyberDecorative</li>
+      </sowTags>
+	  <sowResearchPrerequisites Inherit="False">
+        <li>Research_CyberFlora</li>
+      </sowResearchPrerequisites>
+      <growDays>3</growDays>
+      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+	  <neverBlightable>true</neverBlightable>
+      <growMinGlow>1</growMinGlow>
+      <growOptimalGlow>3</growOptimalGlow>
+    </plant>
+    <fertility>1</fertility>
+     <comps>
+        <li Class="CompProperties_Glower">
+         <glowRadius>5.9</glowRadius>
+         <glowColor>(232,170,67,0)</glowColor>
+        </li>
+     </comps>
+ </ThingDef>
+ 
+  <ThingDef ParentName="PlantBase">
+     <thingClass>Ruyu.CyberFlora.CyberPlant</thingClass>
+     <defName>Cyber_Dandelion</defName>
+     <label>cyber dandelion</label>
+	  <description>A tiny yellow cyber flower, enchanted by a beautiful yellow glow. Cyberplants have a very long lifespan and can grow in any temperature.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+	  <Flammability>0</Flammability>
+      <Beauty>35</Beauty>
+      <BeautyOutdoors>35</BeautyOutdoors>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CyberDandelions</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>0.8</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>2000</sowWork> <!-- 100 ticks per live day -->
+      <sowTags>
+        <li>CyberDecorative</li>
+      </sowTags>
+	  <sowResearchPrerequisites Inherit="False">
+        <li>Research_CyberFlora</li>
+      </sowResearchPrerequisites>
+      <growDays>3</growDays>
+      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+	  <neverBlightable>true</neverBlightable>
+      <growMinGlow>1</growMinGlow>
+      <growOptimalGlow>3</growOptimalGlow>
+    </plant>
+    <fertility>1</fertility>
+     <comps>
+        <li Class="CompProperties_Glower">
+         <glowRadius>5.9</glowRadius>
+         <glowColor>(206,193,111,0)</glowColor>
+        </li>
+     </comps>
+ </ThingDef>
+ 
+  <ThingDef ParentName="PlantBase">
+     <thingClass>Ruyu.CyberFlora.CyberPlant</thingClass>
+     <defName>Cyber_GreenPlant</defName>
+     <label>cyber green plant</label>
+	  <description>A cyber green plant with big leaves. Green plants are very common, enchanted by a beautiful green glow. Cyberplants have a very long lifespan and can grow in any temperature.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+	  <Flammability>0</Flammability>
+      <Beauty>35</Beauty>
+      <BeautyOutdoors>35</BeautyOutdoors>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CyberHousePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>2000</sowWork> <!-- 100 ticks per live day -->
+      <sowTags>
+        <li>CyberDecorative</li>
+      </sowTags>
+	  <sowResearchPrerequisites Inherit="False">
+        <li>Research_CyberFlora</li>
+      </sowResearchPrerequisites>
+      <growDays>3</growDays>
+      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+	  <neverBlightable>true</neverBlightable>
+      <growMinGlow>1</growMinGlow>
+      <growOptimalGlow>3</growOptimalGlow>
+    </plant>
+    <fertility>1</fertility>
+     <comps>
+        <li Class="CompProperties_Glower">
+         <glowRadius>5.9</glowRadius>
+         <glowColor>(161,189,44,0)</glowColor>
+        </li>
+     </comps>
+ </ThingDef>
+ 
+   <ThingDef ParentName="PlantBase">
+     <thingClass>Ruyu.CyberFlora.CyberPlant</thingClass>
+     <defName>Cyber_FairyMoss</defName>
+     <label>cyber fairy moss</label>
+	  <description>A cyber fairy moss plant with big moss blobs. fairy moss plants are very beautiful, enchanted by a beautiful blue glow. Cyberplants have a very long lifespan and can grow in any temperature.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+	  <Flammability>0</Flammability>
+      <Beauty>35</Beauty>
+      <BeautyOutdoors>35</BeautyOutdoors>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CyberFairyMoss</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>0.8</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>2000</sowWork> <!-- 100 ticks per live day -->
+      <sowTags>
+        <li>CyberDecorative</li>
+      </sowTags>
+	  <sowResearchPrerequisites Inherit="False">
+        <li>Research_CyberFlora</li>
+      </sowResearchPrerequisites>
+      <growDays>3</growDays>
+      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+	  <neverBlightable>true</neverBlightable>
+      <growMinGlow>1</growMinGlow>
+      <growOptimalGlow>3</growOptimalGlow>
+    </plant>
+    <fertility>1</fertility>
+     <comps>
+        <li Class="CompProperties_Glower">
+         <glowRadius>5.9</glowRadius>
+         <glowColor>(69,199,165,0)</glowColor>
+        </li>
+     </comps>
+ </ThingDef>
+ 
+    <ThingDef ParentName="PlantBase">
+     <thingClass>Ruyu.CyberFlora.CyberPlant</thingClass>
+     <defName>Cyber_PurpleGlowstool</defName>
+     <label>cyber purple glowstool</label>
+	  <description>A purple cyber glowstool mushroom, surpringly it smells really good. purple glowstool mushrooms are very beautiful, enchanted by a beautiful purple glow. Cyberplants have a very long lifespan and can grow in any temperature.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+	  <Flammability>0</Flammability>
+      <Beauty>35</Beauty>
+      <BeautyOutdoors>35</BeautyOutdoors>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CyberPurpleGlowStool</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>0.8</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>2000</sowWork> <!-- 100 ticks per live day -->
+      <sowTags>
+        <li>CyberDecorative</li>
+      </sowTags>
+	  <sowResearchPrerequisites Inherit="False">
+        <li>Research_CyberFlora</li>
+      </sowResearchPrerequisites>
+      <growDays>3</growDays>
+      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+	  <neverBlightable>true</neverBlightable>
+      <growMinGlow>1</growMinGlow>
+      <growOptimalGlow>3</growOptimalGlow>
+    </plant>
+    <fertility>1</fertility>
+     <comps>
+        <li Class="CompProperties_Glower">
+         <glowRadius>4.9</glowRadius>
+         <glowColor>(148,0,211,0)</glowColor>
+        </li>
+     </comps>
+ </ThingDef>
+ 
+</Defs>

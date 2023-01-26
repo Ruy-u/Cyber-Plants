@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <Defs>
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Ruyu_CyberPlantPot</defName>
+    <label>cyber plant pot</label>
+    <description>A more advanced version of plant pots. Plant decorative cyber flowers here to improve the mood of people nearby.</description>
+    <thingClass>Building_PlantGrower</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Furniture/AdvancedPlantPot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.35, 0.3)</volume>
+        <offset>(0, 0, -0.28)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.20</fillPercent>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<stuffCategories>
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <researchPrerequisites>
+      <li>Research_CyberFlora</li>
+    </researchPrerequisites>
+	<tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+      </li>
+	  <li Class="CompProperties_Flickable"/>
+    </comps>
+    <fertility>1.0</fertility>
+    <designationHotKey>Misc9</designationHotKey>
+    <uiOrder>2600</uiOrder>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <building>
+      <defaultPlantToGrow>Plant_GrayGrass</defaultPlantToGrow>
+      <sowTag>CyberDecorative</sowTag>
+      <paintable>true</paintable>
+    </building>
+    <rotatable>false</rotatable>
+    <uiIconOffset>(0, -0.05)</uiIconOffset>
+  </ThingDef>
+  
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Ruyu_CyberSquarePlantPot</defName>
+    <label>cyber square plant pot</label>
+    <description>A square version of the cyber plant pot. Plant decorative cyber flowers here to improve the mood of people nearby.</description>
+    <thingClass>Building_PlantGrower</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Furniture/SquareAdvancedPlantPot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.35, 0.3)</volume>
+        <offset>(0, 0, -0.28)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.20</fillPercent>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<stuffCategories>
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <researchPrerequisites>
+      <li>Research_CyberFlora</li>
+    </researchPrerequisites>
+	<tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+      </li>
+	  <li Class="CompProperties_Flickable"/>
+    </comps>
+    <fertility>1.0</fertility>
+    <designationHotKey>Misc9</designationHotKey>
+    <uiOrder>2600</uiOrder>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <building>
+      <defaultPlantToGrow>Plant_GrayGrass</defaultPlantToGrow>
+      <sowTag>CyberDecorative</sowTag>
+      <paintable>true</paintable>
+    </building>
+    <rotatable>false</rotatable>
+    <uiIconOffset>(0, -0.05)</uiIconOffset>
+  </ThingDef>
+ </Defs>
