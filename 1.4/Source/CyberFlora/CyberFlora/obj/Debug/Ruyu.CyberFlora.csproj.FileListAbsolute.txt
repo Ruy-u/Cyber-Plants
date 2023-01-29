@@ -2,3 +2,4 @@ G:\SteamLibrary\steamapps\common\RimWorld\Mods\CyberFlora\1.4\Assemblies\CyberFl
 G:\SteamLibrary\steamapps\common\RimWorld\Mods\CyberFlora\1.4\Source\CyberFlora\CyberFlora\obj\Debug\Ruyu.CyberFlora.csproj.AssemblyReference.cache
 G:\SteamLibrary\steamapps\common\RimWorld\Mods\CyberFlora\1.4\Source\CyberFlora\CyberFlora\obj\Debug\Ruyu.CyberFlora.csproj.CoreCompileInputs.cache
 G:\SteamLibrary\steamapps\common\RimWorld\Mods\CyberFlora\1.4\Source\CyberFlora\CyberFlora\obj\Debug\CyberFlora.dll
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\CyberFlora\1.4\Source\CyberFlora\CyberFlora\obj\Debug\Ruyu.CyberFlora.csproj.CopyComplete

@@ -10,7 +10,7 @@
 	  <Flammability>0</Flammability>
       <Beauty>35</Beauty>
       <BeautyOutdoors>35</BeautyOutdoors>
-      <Nutrition>0.05</Nutrition>
+      <Nutrition>5</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CyberRose</texPath>
@@ -32,8 +32,8 @@
 	  <sowResearchPrerequisites Inherit="False">
         <li>Research_CyberFlora</li>
       </sowResearchPrerequisites>
-      <growDays>3</growDays>
-      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <growDays>7</growDays>
+      <lifespanDaysPerGrowDays>1000</lifespanDaysPerGrowDays>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
@@ -48,6 +48,10 @@
          <glowColor>(220,20,60,0)</glowColor>
         </li>
      </comps>
+	 <modExtensions>
+      <li Class="Ruyu.CyberFlora.CyberPlantMod">
+      </li>
+     </modExtensions>
  </ThingDef>
  
   <ThingDef ParentName="PlantBase">
@@ -60,7 +64,7 @@
 	  <Flammability>0</Flammability>
       <Beauty>35</Beauty>
       <BeautyOutdoors>35</BeautyOutdoors>
-      <Nutrition>0.05</Nutrition>
+      <Nutrition>5</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CyberPinkRose</texPath>
@@ -82,8 +86,8 @@
 	  <sowResearchPrerequisites Inherit="False">
         <li>Research_CyberFlora</li>
       </sowResearchPrerequisites>
-      <growDays>3</growDays>
-      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <growDays>7</growDays>
+      <lifespanDaysPerGrowDays>1000</lifespanDaysPerGrowDays>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
@@ -98,6 +102,10 @@
          <glowColor>(228,131,152,0)</glowColor>
         </li>
      </comps>
+	 <modExtensions>
+      <li Class="Ruyu.CyberFlora.CyberPlantMod">
+      </li>
+     </modExtensions>
  </ThingDef>
  
  <ThingDef ParentName="PlantBase">
@@ -110,7 +118,7 @@
 	  <Flammability>0</Flammability>
       <Beauty>35</Beauty>
       <BeautyOutdoors>35</BeautyOutdoors>
-      <Nutrition>0.05</Nutrition>
+      <Nutrition>5</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CyberDaylily</texPath>
@@ -132,8 +140,8 @@
 	  <sowResearchPrerequisites Inherit="False">
         <li>Research_CyberFlora</li>
       </sowResearchPrerequisites>
-      <growDays>3</growDays>
-      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <growDays>7</growDays>
+      <lifespanDaysPerGrowDays>1000</lifespanDaysPerGrowDays>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
@@ -148,6 +156,10 @@
          <glowColor>(232,170,67,0)</glowColor>
         </li>
      </comps>
+	 <modExtensions>
+      <li Class="Ruyu.CyberFlora.CyberPlantMod">
+      </li>
+     </modExtensions>
  </ThingDef>
  
   <ThingDef ParentName="PlantBase">
@@ -160,7 +172,7 @@
 	  <Flammability>0</Flammability>
       <Beauty>35</Beauty>
       <BeautyOutdoors>35</BeautyOutdoors>
-      <Nutrition>0.05</Nutrition>
+      <Nutrition>5</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CyberDandelions</texPath>
@@ -182,8 +194,8 @@
 	  <sowResearchPrerequisites Inherit="False">
         <li>Research_CyberFlora</li>
       </sowResearchPrerequisites>
-      <growDays>3</growDays>
-      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <growDays>7</growDays>
+      <lifespanDaysPerGrowDays>1000</lifespanDaysPerGrowDays>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
@@ -198,6 +210,10 @@
          <glowColor>(206,193,111,0)</glowColor>
         </li>
      </comps>
+	 <modExtensions>
+      <li Class="Ruyu.CyberFlora.CyberPlantMod">
+      </li>
+     </modExtensions>
  </ThingDef>
  
   <ThingDef ParentName="PlantBase">
@@ -210,7 +226,7 @@
 	  <Flammability>0</Flammability>
       <Beauty>35</Beauty>
       <BeautyOutdoors>35</BeautyOutdoors>
-      <Nutrition>0.05</Nutrition>
+      <Nutrition>5</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CyberHousePlant</texPath>
@@ -231,8 +247,8 @@
 	  <sowResearchPrerequisites Inherit="False">
         <li>Research_CyberFlora</li>
       </sowResearchPrerequisites>
-      <growDays>3</growDays>
-      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <growDays>7</growDays>
+      <lifespanDaysPerGrowDays>1000</lifespanDaysPerGrowDays>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
@@ -247,6 +263,10 @@
          <glowColor>(161,189,44,0)</glowColor>
         </li>
      </comps>
+	 <modExtensions>
+      <li Class="Ruyu.CyberFlora.CyberPlantMod">
+      </li>
+     </modExtensions>
  </ThingDef>
  
    <ThingDef ParentName="PlantBase">
@@ -259,7 +279,7 @@
 	  <Flammability>0</Flammability>
       <Beauty>35</Beauty>
       <BeautyOutdoors>35</BeautyOutdoors>
-      <Nutrition>0.05</Nutrition>
+      <Nutrition>5</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CyberFairyMoss</texPath>
@@ -281,8 +301,8 @@
 	  <sowResearchPrerequisites Inherit="False">
         <li>Research_CyberFlora</li>
       </sowResearchPrerequisites>
-      <growDays>3</growDays>
-      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <growDays>7</growDays>
+      <lifespanDaysPerGrowDays>1000</lifespanDaysPerGrowDays>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
@@ -297,6 +317,10 @@
          <glowColor>(69,199,165,0)</glowColor>
         </li>
      </comps>
+	 <modExtensions>
+      <li Class="Ruyu.CyberFlora.CyberPlantMod">
+      </li>
+     </modExtensions>
  </ThingDef>
  
     <ThingDef ParentName="PlantBase">
@@ -309,7 +333,7 @@
 	  <Flammability>0</Flammability>
       <Beauty>35</Beauty>
       <BeautyOutdoors>35</BeautyOutdoors>
-      <Nutrition>0.05</Nutrition>
+      <Nutrition>5</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CyberPurpleGlowStool</texPath>
@@ -331,8 +355,8 @@
 	  <sowResearchPrerequisites Inherit="False">
         <li>Research_CyberFlora</li>
       </sowResearchPrerequisites>
-      <growDays>3</growDays>
-      <lifespanDaysPerGrowDays>10000</lifespanDaysPerGrowDays>
+      <growDays>7</growDays>
+      <lifespanDaysPerGrowDays>1000</lifespanDaysPerGrowDays>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
@@ -347,6 +371,10 @@
          <glowColor>(148,0,211,0)</glowColor>
         </li>
      </comps>
+	 <modExtensions>
+      <li Class="Ruyu.CyberFlora.CyberPlantMod">
+      </li>
+     </modExtensions>
  </ThingDef>
  
 </Defs>
